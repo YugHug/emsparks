@@ -180,6 +180,22 @@ ul li ul li:hover {
   display: block;
 }
 
+/*E and S logo*/
+/*alternate color option for ember #19787F */
+
+#ember-text {
+  color: #CCJ358;
+  text-align: left;
+  font-family: 'Bad Script';
+  font-size: 54px;
+  margin-top: 0px;
+  margin-left: -109px;
+  margin-bottom: 10px;
+  padding: 8px 10px 11px 6px;
+  background-color:  #E6E1DE;
+  position: fixed;
+  top: 0;
+}
 
 </style>
 <head>
