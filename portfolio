@@ -20,6 +20,167 @@
 <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet'>
 
 <style>
+/* navigation */
+
+#head {
+  background-color: white;
+  text-align: center;
+  position: relative;
+  margin: 10px;
+  padding-top: 20px 10px 5px 20px;
+}
+
+#section {
+  width: 350px;
+  float: left;
+  padding: 90px;
+}
+
+#aside {
+  width: 00px;
+  float: right;
+  padding: 0px;
+  position: relative;
+  right: -500px;
+  height: 192px;
+}
+
+div {
+  background-color: white;
+}
+
+div a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  padding: 15px;
+  display: inline-block;
+}
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li:hover {
+  background: #FFF;
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+a.ex1:hover,
+a.ex1:active {
+  color: gray;
+}
+
+ul li ul {
+  position: absolute;
+  width: 100px;
+  display: none;
+}
+
+ul li ul li {
+  background: #FFF;
+  display: block;
+}
+
+ul li ul li a {
+  display: block  !important;
+}
+
+ul li ul li:hover {
+  background: #FFF;
+}
+
+div {
+  background-color: white;
+}
+
+/* cant seem to change this text decoration without the nav disappearing*/
+
+div a {
+  font-family: 'Montsserrat';
+  text-decoration: none color: white;
+  text-decoration-color: black;
+  font-size: 15px;
+  padding: 10px;
+  display: inline-block;
+}
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li:hover {
+  background: #FFF;
+}
+
+ul li:hover ul {
+  display: block;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+ul li ul {
+  position: absolute;
+  width: 100px;
+  display: none;
+}
+
+ul li ul li {
+  background: #FFF;
+  display: block;
+  width: 200px;
+}
+
+ul li ul li a {
+  display: block !important;
+}
+
+ul li ul li:hover {
+  background: #FFF;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2.5px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
 </style>
 <head>
   <!--corner business name/logo-->
