@@ -197,6 +197,21 @@ ul li ul li:hover {
   top: 0;
 }
 
+/* and text for logo begins here, alternate greenish color is #AAAB44 */
+#and-text {
+  color: #FF6355;
+  text-align: left;
+  font-family: 'Amatic SC';
+  font-size: 65px;
+  margin-top: 0px;
+  margin-left: 45px;
+  margin-bottom: 10px;
+  padding: 0px 10px 6px 2px;
+  background-color: #E6E1D1;
+  position: fixed;
+  top: 0;
+}
+
 </style>
 <head>
   <!--corner business name/logo-->
