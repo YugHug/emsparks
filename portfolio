@@ -20,7 +20,7 @@
 <link href='https://fonts.googleapis.com/css?family=Loved by the King' rel='stylesheet'>
 
 <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet'>
-
+</head>
 <style>
 /* navigation */
 
@@ -266,12 +266,17 @@ h1 {
   color: white;
 }
 
+h4 {
+  font-family: 'Loved by the King';
+  font-size: 30px;
+  text-align: left;
+}
 
 </style>
-<head>
+<header>
   <!--corner business name/logo-->
 <h1 id="ember-text">Embers<h1 id="and-text"><b>+</b><h1 id="sparks-text">Sparks<.h1>
-</head>
+</header>
 <body>
 <header>
   <!--navigation bar-->
