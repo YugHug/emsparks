@@ -184,6 +184,36 @@ ul li ul li:hover {
   display: block;
 }
 
+/* nav bar begins here
+fixed to top as requirement of FCC userstory
+boxed controls nav background */
+
+.boxed {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 00px;
+  margin-bottom: 0px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* controls nav type/text */
+
+.spotted-box {
+  margin-top: -5px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 400px;
+  padding: 0px;
+  background-color: #E6E1DE;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/*nav bar ends here */
+
 /*E and S logo*/
 /*alternate color option for ember #19787F */
 
@@ -295,6 +325,12 @@ hr {
   border-width: 1px solid;
   padding: 10px;
 }
+
+li {
+  display: inline;
+  padding: 20px;
+}
+
 
 </style>
 <header>
