@@ -284,6 +284,18 @@ h5 {
   margin-left: px;
 }
 
+/* style for hr line between themes */
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px solid;
+  padding: 10px;
+}
+
 </style>
 <header>
   <!--corner business name/logo-->
