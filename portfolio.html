@@ -466,6 +466,34 @@ div.project-tile {
   display: table;
   clear: both;
 }
+
+/* id selector for Contact Us section */
+/* buttons */
+.btn-group button {
+  background-color: tomato; #FE0133;
+  border: 1px solid black;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left; /*floats the buttons side by side*/
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevents double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #9C9C9E;
+}
+
 </style>
 <header>
   <!--corner business name/logo-->
