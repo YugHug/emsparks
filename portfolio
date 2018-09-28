@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
 <head>
-<!--slightly shifts the navbar and log name to the right. Should be able to remove this and shift with CSS when updating and cleaning code. Try to use the head feature update in html5-->
-
 <meta charset="utf-8">
-
+<title>Jay Yugen Portfolio</title>
+<meta name="description" content="Jay Yugen Portfolio"
+<!--slightly shifts the navbar and log name to the right. Should be able to remove this and shift with CSS when updating and cleaning code. Try to use the head feature update in html5-->
 <h1 id="head" style="text-align:left;" font-family="Montserrat">
 
 <!--fonts used listed below found on https://fonts.google.com-->
