@@ -212,6 +212,36 @@ ul li ul li:hover {
   top: 0;
 }
 
+/* alternative sparks color is here #FF6358 */
+
+#sparks-text {
+  color: #CCJ358;
+  text-align: left;
+  font-family: 'Bad Script';
+  font-size: 54px;
+  margin-top: 0px;
+  padding: 8px 10px 11px 2px;
+  margin-left: 83px;
+  margin-bottom: 0px;
+  background-color: #E6E1DE;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* header logo */
+
+h1 {
+  display: inline;
+  font-family: 'Megrim';
+  font-size: 15;
+  font-weight: 100px;
+  color: white;
+  font-stretch: ultra-condensed;
+  margin-left: 20px;
+  margin-top: 150px;
+  text-align: center;
+}
 </style>
 <head>
   <!--corner business name/logo-->
