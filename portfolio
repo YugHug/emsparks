@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -277,6 +277,17 @@ h1 {
   text-align: center;
 }
 
+/* fixed background intro image */
+
+body {
+  background-image: url("https://i.imgur.com/Yn9wxej.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 /* quote text begins here */
 #maya {
   font-family: 'Waiting for the Sunrise';
@@ -366,4 +377,5 @@ li {
 <h1>
 </h1>
 </body>
+
 </html>
