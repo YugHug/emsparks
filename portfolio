@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>Jay Yugen Portfolio</title>
 <meta name="description" content="Jay Yugen Portfolio"
+
 <!--slightly shifts the navbar and log name to the right. Should be able to remove this and shift with CSS when updating and cleaning code. Try to use the head feature update in html5-->
 <h1 id="head" style="text-align:left;" font-family="Montserrat">
 
@@ -21,6 +22,7 @@
 
 <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet'>
 </head>
+
 <style>
 /* navigation */
 
@@ -270,6 +272,16 @@ h4 {
   font-family: 'Loved by the King';
   font-size: 30px;
   text-align: left;
+}
+
+/* style for dream code reach icons */
+h5 {
+  display: inline;
+  font-family: 'Poiret One';
+  font-size: 25px;
+  color: tomato;
+  text-align: center;
+  margin-left: px;
 }
 
 </style>
