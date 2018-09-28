@@ -431,6 +431,41 @@ div.gallery img {
   max-height: 100%;
 }
 
+/* description div for under responsive images */
+
+div.project-tile {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.75%
+}
+
+@media only screen and (max-width: 700px){
+  .responsive {
+    width: 49.9999%
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
 <header>
   <!--corner business name/logo-->
