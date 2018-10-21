@@ -1,0 +1,479 @@
+<style>
+
+/* navigation */
+
+#head {
+  background-color: white;
+  text-align: center;
+  position: relative;
+  margin: 10px;
+  padding-top: 20px 10px 5px 20px;
+}
+
+#section {
+  width: 350px;
+  float: left;
+  padding: 90px;
+}
+
+#aside {
+  width: 00px;
+  float: right;
+  padding: 0px;
+  position: relative;
+  right: -500px;
+  height: 192px;
+}
+
+div {
+  background-color: white;
+}
+
+div a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  padding: 15px;
+  display: inline-block;
+}
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li:hover {
+  background: #FFF;
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+a.ex1:hover,
+a.ex1:active {
+  color: gray;
+}
+
+ul li ul {
+  position: absolute;
+  width: 100px;
+  display: none;
+}
+
+ul li ul li {
+  background: #FFF;
+  display: block;
+}
+
+ul li ul li a {
+  display: block  !important;
+}
+
+ul li ul li:hover {
+  background: #FFF;
+}
+
+div {
+  background-color: white;
+}
+
+/* cant seem to change this text decoration without the nav disappearing*/
+
+div a {
+  font-family: 'Montserrat';
+  text-decoration: none color: white;
+  text-decoration-color: black;
+  font-size: 15px;
+  padding: 10px;
+  display: inline-block;
+}
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li:hover {
+  background: #FFF;
+}
+
+ul li:hover ul {
+  display: block;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+ul li ul {
+  position: absolute;
+  width: 100px;
+  display: none;
+}
+
+ul li ul li {
+  background: #FFF;
+  display: block;
+  width: 200px;
+}
+
+ul li ul li a {
+  display: block !important;
+}
+
+ul li ul li:hover {
+  background: #FFF;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2.5px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* nav bar begins here
+fixed to top as requirement of FCC userstory
+boxed controls nav background */
+
+.boxed {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* controls nav type/text */
+
+.spotted-box {
+  margin-top: 14px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 450px;
+  padding: 0px;
+  background-color: #E6E1DE;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/*nav bar ends here */
+
+/*E and S logo*/
+/*alternate color option for ember #19787F */
+
+#ember-text {
+  color: #CCJ358;
+  text-align: left;
+  font-family: 'Bad Script';
+  font-size: 54px;
+  margin-top: 0px;
+  margin-left: -20px;
+  margin-bottom: 10px;
+  padding: 8px 40px 11px 40px;
+  background-color:  #E6E1DE;
+  position: fixed;
+  top: 0;
+}
+
+/* and text for logo begins here, alternate greenish color is #AAAB44 */
+#and-text {
+  color: #FF6355;
+  text-align: left;
+  font-family: 'Amatic SC';
+  font-size: 65px;
+  margin-top: 0px;
+  margin-left: 175px;
+  margin-bottom: 10px;
+  padding: 20px 10px 23px 2px;
+  background-color: #E6E1DE;
+  position: fixed;
+  top: 0;
+}
+
+/* alternative sparks color is here #FF6358 */
+
+#sparks-text {
+  color: #CCJ358;
+  text-align: left;
+  font-family: 'Bad Script';
+  font-size: 54px;
+  margin-top: 0px;
+  padding: 8px 10px 11px 12px;
+  margin-left: 203px;
+  margin-bottom: 0px;
+  background-color: #E6E1DE;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* header logo */
+
+h1 {
+  display: inline;
+  font-family: 'Megrim';
+  font-size: 15;
+  font-weight: 100px;
+  color: white;
+  font-stretch: ultra-condensed;
+  margin-left: 20px;
+  margin-top: 150px;
+  text-align: center;
+}
+
+/* fixed background intro image */
+
+body {
+  background-image: url("https://i.imgur.com/Yn9wxej.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* quote text begins here */
+#maya {
+  font-family: 'Waiting for the Sunrise';
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.white-background {
+  background-color: white;
+  font-family: 'Amatic SC';
+  font-size: 20px;
+  font-weight: 100;
+  text-align: ;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 10px;
+  padding: 20px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+/* image selector for white background graphics */
+
+img {
+  display: ;
+  float: left;
+  margin-bottom: ;
+  margin-left: 10%;
+  margin-right: 10%;
+  max-width: 10%;
+  padding: 0px;
+}
+
+/* intro welcome text */
+
+#welcome-section {
+  font-family: 'Amatic SC';
+  font-size: 60px;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 250px;
+  margin-left: -70px;
+  color: white;
+}
+
+h4 {
+  font-family: 'Loved by the King';
+  font-size: 30px;
+  text-align: left;
+}
+
+/* class for font/paragraph position */
+
+p.a {
+  white-space: normal;
+  padding: 10px 80px 20px 40px;
+}
+
+/*id selector for Services Section*/
+.gray-background {
+  background-color: #F2F1F1;
+  font-family: 'Amatic SC';
+  font-size: 20px;
+  font-weight: 100;
+  text-align: ;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 10px;
+  padding: 20px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+/*id selector for Red Quote background */
+.red-background {
+  background-color: tomato;#FE0133;
+  padding: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 10px;
+  border-style: solid;
+  border-width: .5px;
+}
+
+/* style for dream code reach icons */
+h5 {
+  display: inline;
+  font-family: 'Poiret One';
+  font-size: 25px;
+  color: tomato;
+  text-align: center;
+  margin-left: px;
+}
+
+/* style for hr line between themes */
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px solid;
+}
+
+li {
+  display: inline;
+  padding: 20px;
+}
+
+/* id selector for Portfolio section, formerly named and exactly the same as the div class white background, in the about section. Repeat uncecessary but made to fulfill a freecodecamp userstory requirement */
+.projects {
+  background-color: white;
+  font-family: 'Amatic SC';
+  font-size: 20px;
+  font-weight: 100;
+  text-align: ;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 10px;
+  padding: 20px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+/* responsive image gallery */
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+/* description div for under responsive images */
+
+div.project-tile {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+  .responsive {
+    width: 49.9999%
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* id selector for Contact Us section */
+/* buttons */
+.btn-group button {
+  background-color: tomato; #FE0133;
+  border: 1px solid black;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left; /*floats the buttons side by side*/
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevents double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #9C9C9E;
+}
+</style>
